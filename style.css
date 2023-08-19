@@ -8,6 +8,7 @@
   height: 100px;
   margin: auto;
   animation: put linear 1s infinite;
+  z-index: 99999999;
 }
 @keyframes put {
   from {
@@ -26,6 +27,7 @@
   width: 140px;
   height: 140px;
   margin: auto;
+  z-index: 99999999999;
   animation: putt linear 1s infinite;
 }
 @keyframes putt {
@@ -46,6 +48,7 @@
   width: 100%;
   height: 5000vh;
   position: fixed;
+  z-index: 999999;
 }
 
 body {
@@ -231,7 +234,7 @@ ul li a:hover {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap-reverse;
+  flex-wrap: wrap;
   margin-top: 30px;
   padding: 20px;
   color: rgb(0, 0, 0);
@@ -260,7 +263,7 @@ span {
   font-size: 20px;
   border-radius: 5px;
   background-color: red;
-  padding: 20px;
+  padding: 10px;
   color: white;
   text-decoration: none;
   margin-top: 10px;
@@ -270,4 +273,31 @@ span {
   background-color: transparent;
   transition: 1s;
   color: black;
+}
+.main-dua a {
+  text-decoration: none;
+  font-size: 18px;
+  color: red;
+}
+.header h6 a {
+  text-decoration: none;
+  font-size: 17px;
+  color: red;
+}
+.jumbo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid red;
+}
+.thumb img {
+  width: 90px;
+}
+.thumb {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+}
+.thumb-des {
+  border: 1px solid red;
 }

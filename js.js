@@ -17,8 +17,11 @@ menu.addEventListener("click", function () {
   ul.classList.toggle("slide");
 });
 
-var nilai = 1;
-while (nilai <= 10) {
-  console.log("hello");
-  nilai++;
-}
+const container = document.querySelector("container");
+const jumbu = document.querySelector("jumbo");
+
+container.addEventListener("click", function (e) {
+  if (e.target.classList == "thumb") {
+    jumbu.scr = e.target.src;
+  }
+});
