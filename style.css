@@ -191,6 +191,9 @@ ul li a:hover {
   padding-left: 30px;
   margin-top: 50px;
 }
+.main-dua p {
+  margin-top: -10px;
+}
 .item-1 {
   display: flex;
   padding: 0 5px;
